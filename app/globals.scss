@@ -3,9 +3,241 @@
 }
 
 body {
+  position: relative;
   margin: 0;
-  // max-width: 2000px;
   margin: auto;
+  width: 100%;
   height: 100vh;
-  // maybe change this for min-height in future
+  background-color: #c68484;
+  color: #fff;
+  overflow: hidden;
+}
+
+.image1 {
+  margin-top: 1%;
+  margin-left: 10%;
+}
+.image2 {
+  margin-top: 1%;
+  margin-left: 30%;
+}
+.image3 {
+  margin-top: 15%;
+  margin-left: 2%;
+}
+.image4 {
+  margin-top: 10%;
+  margin-left: 70%;
+}
+.image5 {
+  margin-top: 1%;
+  margin-left: 50%;
+}
+.image6 {
+  margin-top: 20%;
+  margin-left: 40%;
+}
+.image7 {
+  margin-top: 30%;
+  margin-left: 60%;
+}
+.image8 {
+  margin-top: 30%;
+  margin-left: 30%;
+}
+.image9 {
+  top: 50%;
+  left: 20%;
+}
+.image10 {
+  margin-top: 55%;
+  margin-left: 40%;
+}
+.image11 {
+  top: 30%;
+  left: 15%;
+}
+.image12 {
+  margin-top: 45%;
+  margin-left: 50%;
+}
+.image13 {
+  margin-top: 55%;
+  margin-left: 10%;
+}
+.image14 {
+  margin-top: 55%;
+  margin-left: 70%;
+}
+
+@media screen and (max-width: 1200px) {
+  .image1 {
+    margin-top: 70%;
+    margin-left: 10%;
+  }
+  .image2 {
+    margin-top: 1%;
+    margin-left: 30%;
+  }
+  .image3 {
+    margin-top: 15%;
+    margin-left: 2%;
+  }
+  .image4 {
+    margin-top: 10%;
+    margin-left: 70%;
+  }
+  .image5 {
+    margin-top: 1%;
+    margin-left: 50%;
+  }
+  .image6 {
+    margin-top: 20%;
+    margin-left: 40%;
+  }
+  .image7 {
+    margin-top: 30%;
+    margin-left: 60%;
+  }
+  .image8 {
+    margin-top: 80%;
+    margin-left: 30%;
+  }
+  .image9 {
+    top: 50%;
+    left: 20%;
+  }
+  .image10 {
+    margin-top: 55%;
+    margin-left: 40%;
+  }
+  .image11 {
+    top: 30%;
+    left: 15%;
+  }
+  .image12 {
+    margin-top: 45%;
+    margin-left: 50%;
+  }
+  .image13 {
+    margin-top: 65%;
+    margin-left: 70%;
+  }
+  .image14 {
+    margin-top: 85%;
+    margin-left: 70%;
+  }
+}
+
+@media screen and (max-width: 850px) {
+  .image1 {
+    margin-top: 70%;
+    margin-left: 10%;
+  }
+  .image2 {
+    margin-top: 1%;
+    margin-left: 30%;
+  }
+  .image3 {
+    margin-top: 25%;
+    margin-left: 2%;
+  }
+  .image4 {
+    margin-top: 10%;
+    margin-left: 70%;
+  }
+  .image5 {
+    margin-top: 1%;
+    margin-left: 50%;
+  }
+  .image6 {
+    margin-top: 20%;
+    margin-left: 40%;
+  }
+  .image7 {
+    margin-top: 30%;
+    margin-left: 60%;
+  }
+  .image8 {
+    margin-top: 80%;
+    margin-left: 30%;
+  }
+  .image9 {
+    top: 50%;
+    left: 60%;
+  }
+  .image10 {
+    margin-top: 55%;
+    margin-left: 40%;
+  }
+  .image11 {
+    top: 30%;
+    left: 15%;
+  }
+  .image12 {
+    margin-top: 45%;
+    margin-left: 80%;
+  }
+  .image13 {
+    margin-top: 100%;
+    margin-left: 30%;
+  }
+  .image14 {
+    margin-top: 100%;
+    margin-left: 70%;
+  }
+}
+
+@media screen and (max-width: 450px) {
+  .image1 {
+    margin-top: 70%;
+    margin-left: 10%;
+  }
+  .image2 {
+    margin-top: 1%;
+    margin-left: 30%;
+  }
+  .image3 {
+    margin-top: 25%;
+    margin-left: 2%;
+  }
+  .image4 {
+    margin-top: 10%;
+    margin-left: 70%;
+  }
+  .image5 {
+    display: none;
+  }
+  .image6 {
+    display: none;
+  }
+  .image7 {
+    margin-top: 160%;
+    margin-left: 10%;
+  }
+  .image8 {
+    margin-top: 120%;
+    margin-left: 10%;
+  }
+  .image9 {
+    top: 50%;
+    left: 60%;
+  }
+  .image10 {
+    margin-top: 55%;
+    margin-left: 40%;
+  }
+  .image11 {
+    display: none;
+  }
+  .image12 {
+    display: none;
+  }
+  .image13 {
+    display: none;
+  }
+  .image14 {
+    margin-top: 170%;
+    margin-left: 50%;
+  }
 }
